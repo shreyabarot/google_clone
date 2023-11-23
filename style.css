@@ -1,0 +1,110 @@
+#div-2{
+    text-align: center;
+    margin:20px;
+    padding:50px;
+}
+#div-1{
+    padding:30px 20px;
+    text-align: right;
+}
+
+body{
+    font-family: Arial,sans-serif;
+}
+#div-img{
+    text-align: center;
+    margin-top:20px;
+    padding-top:50px;
+    padding-bottom:30px;
+}
+.links, .links:active, .links.focus{
+    margin:10px ;
+    padding: 5px ;
+    text-decoration: none;
+    color: inherit;
+    font-size: 10px;
+}
+.links:hover{
+    text-decoration: underline;
+}
+
+#google-img{
+    width: 380px;
+}
+#submit-div{
+    text-align: center;
+    padding:30px;
+}
+
+.submit-button{
+    font-size: 17px;
+    line-height: 24px;
+    background-color: #f8f9fa;
+    text-decoration: none;
+    text-align: center;
+    height: 50px;
+    width: 170px;
+    border:none;
+    color:#3c4043;
+    border-radius: 8px;
+    margin: 11px 4px;
+    padding:0px 20px;
+    display: inline-block;
+}
+.submit-button:hover{
+    cursor: pointer;
+    border:1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#search-bar-div{
+    text-align: center;
+}
+
+#search-bar{
+    border:1px solid lightgray;
+    padding:0 40px;
+    outline: none;
+    width: 700px;
+    height:60px;
+    color:rgba(0,0,0,0.87);
+    font-weight: 10;
+    font-size: 22px;
+    border-radius: 100px;
+    background-image:
+    url("https://cdn.2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png");
+    background-repeat: no-repeat;
+    background-position:left center;
+}
+
+#search-bar:hover,#search-bar:active{
+    border:1px solid rgba(223,225,229,0);
+    padding:0 40px;
+    background-image:
+    url("https://cdn.2hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    outline: none;
+    color:rgba(0,0,0,0.87);
+    font-weight: 10;
+    font-size: 22px;
+    width: 700px;
+    height:60px;
+    border-radius: 100px;
+    box-shadow:0 1px 6px rgba(32,33,36,.28);
+}
+
+#last-div-1{
+    position: absolute;
+    height:60px;
+    width:150px;
+    background-color:#f2f2f2;
+    bottom:60px;
+    left:0;
+    font-size: 20px;
+    color:#70757a;
+    right:0;
+    margin:0;
+    padding:0;
+    border:1px solid #dadce0;
+}
